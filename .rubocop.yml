@@ -5,5 +5,26 @@ require:
 AllCops:
   NewCops: enable
 
+Style/BlockDelimiters:
+  Enabled: false
+
+Style/Documentation:
+  Severity: info
+
+Style/GuardClause:
+  Enabled: false
+
+Style/IfUnlessModifier:
+  Enabled: false
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+RSpec/DescribedClass:
+  Enabled: false
+
+RSpec/ExampleLength:
+  Max: 50
+
+RSpec/MultipleExpectations:
+  Max: 20
